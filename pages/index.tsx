@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link';
 import { Inter } from '@next/font/google'
+import Menu from '../components/layout/menu';
 import styles from '../styles/Home.module.css'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -15,6 +16,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="isolate bg-dark">
+        <Menu />
         <>
           <div className={styles.grid}>
             <Link href="/services/onsite-pt" className={styles.card}>
