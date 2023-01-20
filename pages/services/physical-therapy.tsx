@@ -1,5 +1,9 @@
+import Layout from '../../components/general/layout';
+
 export default function PhysicalTherapyPage() {
   return (
-    <h1>Physical Therapy</h1>
+    <Layout>
+      <h1>Physical Therapy</h1>
+    </Layout>
   );
 }

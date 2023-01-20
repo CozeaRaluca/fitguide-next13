@@ -1,5 +1,9 @@
+import Layout from '../../components/general/layout';
+
 export default function NutritionalPlansPage() {
   return (
-    <h1>Nutritional Plans</h1>
+    <Layout>
+      <h1>Nutritional Plans</h1>
+    </Layout>
   );
 }
